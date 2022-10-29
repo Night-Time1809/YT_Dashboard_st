@@ -28,7 +28,7 @@ def audience_simple(country):
     else:
         return "Other"
 
-@st.cache
+# @st.cache
 def load_data():
     df_agg = pd.read_csv(f"data\Aggregated_Metrics_By_Video.csv")
     # df_agg = pd.read_csv(f"https://raw.githubusercontent.com/PlayingNumbers/YT_Dashboard_st/main/Aggregated_Metrics_By_Video.csv")
